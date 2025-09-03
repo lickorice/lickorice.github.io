@@ -4,7 +4,10 @@ import * as Component from "./quartz/components"
 
 // (lickorice/cgpanganiban) Explorer exclusion
 const explorerFunc = (node: FileTrieNode) => {
-  return node.data?.tags?.includes("glossary") !== true
+  const isGlossaryEntry = node.data?.tags?.includes("glossary") === true
+  const isGlossaryFolder = node.isFolder && node.displayName === "Glossary"
+
+  return !(isGlossaryEntry || isGlossaryFolder)
 }
 
 // components shared across all pages
