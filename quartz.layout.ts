@@ -1,5 +1,11 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
+import { FileTrieNode } from "./quartz/util/fileTrie"
 import * as Component from "./quartz/components"
+
+// (lickorice/cgpanganiban) Explorer exclusion
+const explorerFunc = (node: FileTrieNode) => {
+  return node.data?.tags?.includes("glossary") !== true
+}
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -44,6 +50,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Index",
+      filterFn: explorerFunc,
     }),
   ],
   right: [
