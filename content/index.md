@@ -3,7 +3,7 @@ title: Welcome to my blog!
 tags:
   - post
 created: 2025-09-03T06:49
-updated: 2025-09-03T10:14
+updated: 2025-09-03T15:23
 ---
 # Structure
 
@@ -31,7 +31,7 @@ I've privately compiled notes via [Obsidian](https://obsidian.md/) back when it 
 
 ## Keeping the blade sharp
 
-Similarly with my YouTube channel, I don't primarily intend my content to reach virality. I'd like to believe that regularly "distilling" your thoughts into text or video form helps you hone your communication skill.
+Similarly with my [YouTube channel](https://www.youtube.com/@CarlosPanganiban), I don't primarily intend my content to reach virality. I'd like to believe that regularly "distilling" your thoughts into text or video form helps you hone your communication skill.
 
 Surely I'll come back to this page after some due diligence and cite some sources, but personally it has worked for me and still works for me now. 
 # Language and AI use

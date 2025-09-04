@@ -1,7 +1,7 @@
 ---
 title: Kapampangan
 created: 2025-09-03T10:14
-updated: 2025-09-03T10:47
+updated: 2025-09-04T11:01
 tags:
   - concept
   - glossary

@@ -1,13 +1,30 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import { FileTrieNode } from "./quartz/util/fileTrie"
 import * as Component from "./quartz/components"
+import { QuartzPluginData } from "./quartz/plugins/vfile"
 
 // (lickorice/cgpanganiban) Explorer exclusion
 const explorerFunc = (node: FileTrieNode) => {
-  const isGlossaryEntry = node.data?.tags?.includes("glossary") === true
-  const isGlossaryFolder = node.isFolder && node.displayName === "Glossary"
+  const excludedFolders = [
+    "Glossary",
+    "Random thoughts",
+  ]
 
-  return !(isGlossaryEntry || isGlossaryFolder)
+  const isGlossaryEntry = node.data?.tags?.includes("glossary") === true
+
+  const isExcludedFolder = node.isFolder && excludedFolders.includes(node.displayName)
+
+  return !(isGlossaryEntry || isExcludedFolder)
+}
+
+const recentNotesFilter = (node: QuartzPluginData) => {
+  console.log(node.frontmatter?.tags)
+  const excludedTags = [
+    "glossary",
+    "thoughts",
+  ]
+  const hasExcludedTag = node.frontmatter?.tags?.some((tag) => excludedTags.includes(tag))
+  return !hasExcludedTag
 }
 
 // components shared across all pages
@@ -18,6 +35,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/lickorice/lickorice.github.io",
+      YouTube: "https://www.youtube.com/@CarlosPanganiban",
       Discord: "https://discord.gg/GA6wzdQMyY",
       "About Me": "https://carlospanganiban.com",
     },
@@ -49,7 +67,8 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.RecentNotes({
-      title: "Recent",
+      title: "Recently updated",
+      filter: recentNotesFilter,
     }),
     Component.Explorer({
       title: "Index",
