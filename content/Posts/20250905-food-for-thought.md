@@ -1,7 +1,7 @@
 ---
 title: "Food for thought: authenticity"
 created: 2025-09-05T21:25
-modified: 2025-09-06T20:58
+modified: 2025-09-06T21:18
 tags:
   - post
   - opinion
@@ -11,7 +11,7 @@ description: Carlos talks about sisig, food authenticity, and gastronationalism.
 Photo taken from [Reddit (/u/iemwanofit)](https://www.reddit.com/r/filipinofood/comments/1cwnh31/do_you_like_mayo_in_sisig/)
 # The *sisig question*
 
-As a [[kapampangan-people|Kapampangan]], I often get asked about my thoughts on [[sisig]]—would I like it with mayonnaise; with an egg; or even on a hot, sizzling plate? To give you the short answer: **I honestly don't care, as long as it tastes good.**
+As a [[kapampangan-people|Kapampangan]], I often get asked about my thoughts on [[sisig]]—would I like it with mayonnaise; with egg; or even served sizzling, on a hot plate? To give you the short answer: **I honestly don't care, as long as it tastes good.**
 
 Saying that may draw the ire of a big number of *[[kabalen|kabalens]]* who hold *very strong views* on what "true" sisig is.
 
