@@ -29,8 +29,33 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
+      // Wiktionary link
+      if (fileData.frontmatter?.wiktionary) {
+        segments.push(
+          <a href={fileData.frontmatter?.wiktionary as string} target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Wiktionary_small.svg" alt="Wiktionary icon" style="height: 0.9em; margin-right: 0.25em; vertical-align: middle;"></img>
+            Wiktionary
+          </a>
+        )
+        segments.push(<span> • </span>)
+      }
+
+      // Wikipedia link
+      if (fileData.frontmatter?.wikipedia) {
+        segments.push(
+          //place a wikipedia icon before the link
+          <a href={fileData.frontmatter?.wikipedia as string} target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/103px-Wikipedia-logo-v2.svg.png" alt="Wikipedia icon" style="height: 0.9em; margin-right: 0.25em; vertical-align: middle;"></img>
+            Wikipedia
+          </a>
+        )
+        segments.push(<span> • </span>)
+      }
+
+      // Date
       if (fileData.dates) {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
+        segments.push(<span> • </span>)
       }
 
       // Display reading time if enabled

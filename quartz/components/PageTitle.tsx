@@ -19,6 +19,20 @@ PageTitle.css = `
   margin: 0;
   font-family: var(--titleFont);
 }
+
+/* Styles for devices 900px and smaller (e.g., small laptops, tablets) */
+@media screen and (max-width: 900px) {
+  .page-title {
+    font-size: 1.5rem; /* A slightly smaller size for tablets */
+  }
+}
+
+/* Styles for devices 600px and smaller (e.g., mobile phones) */
+@media screen and (max-width: 600px) {
+  .page-title {
+    font-size: 1.25rem; /* The smallest size for mobile */
+  }
+}
 `
 
 export default (() => PageTitle) satisfies QuartzComponentConstructor

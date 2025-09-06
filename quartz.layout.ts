@@ -8,6 +8,7 @@ const explorerFunc = (node: FileTrieNode) => {
   const excludedFolders = [
     "Glossary",
     "Random thoughts",
+    "images",
   ]
 
   const isGlossaryEntry = node.data?.tags?.includes("glossary") === true
@@ -15,6 +16,15 @@ const explorerFunc = (node: FileTrieNode) => {
   const isExcludedFolder = node.isFolder && excludedFolders.includes(node.displayName)
 
   return !(isGlossaryEntry || isExcludedFolder)
+}
+const explorerIndexFunc = (node: FileTrieNode) => {
+  const excludedFolders = [
+    "images",
+  ]
+
+  const isExcludedFolder = node.isFolder && excludedFolders.includes(node.displayName)
+
+  return !isExcludedFolder
 }
 
 const recentNotesFilter = (node: QuartzPluginData) => {
@@ -50,7 +60,9 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.ContentMeta({
+      showComma: false,
+    }),
     Component.TagList(),
   ],
   left: [
@@ -66,10 +78,12 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.RecentNotes({
-      title: "Recently updated",
-      filter: recentNotesFilter,
-    }),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Recently updated",
+        filter: recentNotesFilter,
+      }),
+    ),
     Component.Explorer({
       title: "Index",
       filterFn: explorerFunc,
@@ -97,7 +111,10 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Full index",
+      filterFn: explorerIndexFunc,
+    }),
   ],
   right: [],
 }
