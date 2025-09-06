@@ -5,7 +5,8 @@ updated: 2025-09-04T11:01
 tags:
   - concept
   - glossary
-modified: 2025-09-05T21:55
+  - disambiguation
+modified: 2025-09-06T13:41
 ---
 **Kapampangan** (or alternatively spelled **Capampangan**) refers to:
 - A [[kapampangan-people|person]] whose cultural heritage stems from the people of Pampanga
