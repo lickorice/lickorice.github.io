@@ -1,4 +1,4 @@
-import { PageLayout, SharedLayout } from "./quartz/cfg"
+import { FullPageLayout, PageLayout, SharedLayout } from "./quartz/cfg"
 import { FileTrieNode } from "./quartz/util/fileTrie"
 import * as Component from "./quartz/components"
 import { QuartzPluginData } from "./quartz/plugins/vfile"
@@ -41,7 +41,12 @@ const recentNotesFilter = (node: QuartzPluginData) => {
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.MobileOnly(Component.RecentNotes({
+      title: "Recently updated",
+      filter: recentNotesFilter,
+    })),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/lickorice/lickorice.github.io",
