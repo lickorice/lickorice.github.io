@@ -14,6 +14,12 @@ html {
 body {
   margin: 0;
   box-sizing: border-box;
+  background: linear-gradient(
+    40deg,
+    var(--light) 40%,
+    var(--gradientLight) 80%
+  );
+  background-attachment: fixed;
   background-color: var(--light);
   font-family: var(--bodyFont);
   color: var(--darkgray);
@@ -391,6 +397,8 @@ h3,
 h4,
 h5,
 h6 {
+  text-align: left;
+
   &[id] > a[href^="#"] {
     margin: 0 0.5rem;
     opacity: 0;
