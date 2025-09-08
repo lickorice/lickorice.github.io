@@ -2,6 +2,7 @@ import { FullPageLayout, PageLayout, SharedLayout } from "./quartz/cfg"
 import { FileTrieNode } from "./quartz/util/fileTrie"
 import * as Component from "./quartz/components"
 import { QuartzPluginData } from "./quartz/plugins/vfile"
+import { QuartzComponent } from "./quartz/components/types"
 
 // (lickorice/cgpanganiban) Explorer exclusion
 const explorerFunc = (node: FileTrieNode) => {
@@ -17,6 +18,7 @@ const explorerFunc = (node: FileTrieNode) => {
 
   return !(isGlossaryEntry || isExcludedFolder)
 }
+
 const explorerIndexFunc = (node: FileTrieNode) => {
   const excludedFolders = [
     "images",
@@ -27,25 +29,46 @@ const explorerIndexFunc = (node: FileTrieNode) => {
   return !isExcludedFolder
 }
 
-const recentNotesFilter = (node: QuartzPluginData) => {
+const recentPostsFilter = (node: QuartzPluginData) : boolean => {
+  console.log(node.frontmatter?.tags)
+  const includedTags = [
+    "post",
+  ]
+  const hasIncludedTag = node.frontmatter?.tags?.some((tag) => includedTags.includes(tag)) ?? false
+  return hasIncludedTag
+}
+
+const recentPagesFilter = (node: QuartzPluginData) : boolean => {
   console.log(node.frontmatter?.tags)
   const excludedTags = [
-    "glossary",
-    "thoughts",
+    "post",
+    "stub",
   ]
-  const hasExcludedTag = node.frontmatter?.tags?.some((tag) => excludedTags.includes(tag))
+  const hasExcludedTag = node.frontmatter?.tags?.some((tag) => excludedTags.includes(tag)) ?? false
   return !hasExcludedTag
 }
+
+const recentBlock = [
+  Component.RecentNotes({
+    title: "Recent posts",
+    filter: recentPostsFilter,
+    limit: 3,
+    showTags: false,
+  }),
+  Component.RecentNotes({
+    title: "Recent pages",
+    filter: recentPagesFilter,
+    limit: 2,
+    showTags: false,
+  }),
+]
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.MobileOnly(Component.RecentNotes({
-      title: "Recently updated",
-      filter: recentNotesFilter,
-    })),
+    ...recentBlock.map((c) => Component.MobileOnly(c)),
   ],
   footer: Component.Footer({
     links: {
@@ -83,12 +106,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.DesktopOnly(Component.ReaderMode()) },
       ],
     }),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recently updated",
-        filter: recentNotesFilter,
-      }),
-    ),
+    ...recentBlock.map((c) => Component.DesktopOnly(c)),
     Component.Explorer({
       title: "Index",
       filterFn: explorerFunc,
