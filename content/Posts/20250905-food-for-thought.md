@@ -1,10 +1,11 @@
 ---
 title: "Food for thought: authenticity"
 created: 2025-09-05T21:25
-modified: 2025-09-06T21:18
+modified: 2025-09-08T22:43
 tags:
   - post
   - opinion
+  - rss
 description: Carlos talks about sisig, food authenticity, and gastronationalism.
 ---
 ![[Pasted image 20250906041411.png]]

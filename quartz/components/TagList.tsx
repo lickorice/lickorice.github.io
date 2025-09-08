@@ -4,19 +4,29 @@ import { classNames } from "../util/lang"
 
 const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const tags = fileData.frontmatter?.tags
+
+  const excludedTags = [
+    "rss",
+    "glossary",
+  ]
+
   if (tags && tags.length > 0) {
     return (
       <ul class={classNames(displayClass, "tags")}>
-        {tags.map((tag) => {
-          const linkDest = resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)
-          return (
-            <li>
-              <a href={linkDest} class="internal tag-link">
-                {tag}
-              </a>
-            </li>
-          )
-        })}
+        {
+          tags
+            .filter((tag) => !excludedTags.includes(tag))
+            .map((tag) => {
+            const linkDest = resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)
+            return (
+              <li>
+                <a href={linkDest} class="internal tag-link">
+                  {tag}
+                </a>
+              </li>
+            )
+          })
+        }
       </ul>
     )
   } else {

@@ -7,7 +7,8 @@ tags:
   - retrospective
   - video-companion
   - opinion
-modified: 2025-09-06T04:19
+  - rss
+modified: 2025-09-08T22:43
 description: Carlos talks about the UPD BSCS video, five years later. Includes context, expanded thoughts, and answers to FAQ.
 ---
 # Context
