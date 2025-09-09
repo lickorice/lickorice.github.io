@@ -18,6 +18,12 @@ PageTitle.css = `
   font-size: 1.75rem;
   margin: 0;
   font-family: var(--titleFont);
+
+  color: #962065; 
+  background-image: linear-gradient(45deg, #962065 , #FFD426 ); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
 }
 
 @media screen and (max-width: 1200px) {

@@ -16,8 +16,8 @@ body {
   box-sizing: border-box;
   background: linear-gradient(
     40deg,
-    var(--light) 40%,
-    var(--gradientLight) 80%
+    var(--light),
+    var(--gradientLight)
   );
   background-attachment: fixed;
   background-color: var(--light);
