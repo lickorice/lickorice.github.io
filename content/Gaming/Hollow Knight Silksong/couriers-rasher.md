@@ -1,7 +1,7 @@
 ---
 title: "Hollow Knight: Silksong - Courier's Rasher run"
 created: 2025-09-15T21:04
-modified: 2025-09-16T12:40
+modified: 2025-09-17T02:48
 tags:
   - guide
   - gaming
@@ -44,5 +44,6 @@ All tools above are nice to have, but I believe non-essential. As long as you ha
 - **Flea Brew**. Can marginally improve your run.
 
 # Tips
+- **Enter and exit an area to reset aggro.** I did this at the 1:43 mark in case I get followed by flies.
 - Don't bring anything you're not willing to lose (e.g. 1K rosaries).
 - When attempting the run, rest at Bellhart and rest **nowhere else**. This helps you reset easily.
