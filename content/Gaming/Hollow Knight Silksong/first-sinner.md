@@ -1,7 +1,7 @@
 ---
 title: "Hollow Knight: Silksong - First Sinner fight"
 created: 2025-09-16T12:38
-modified: 2025-09-16T15:42
+modified: 2025-09-16T16:00
 tags:
   - guide
   - gaming
@@ -21,7 +21,7 @@ The **[[runback]]** is also trivial—you might think you'll respawn on the Slab
 
 ## Traversal skills
 
-- **Clawline.** Incredibly important for [[gap closing]] after evading attacks from the First Sinner. I've used it multiple times to sneak some hits in before First Sinner [[blinking|blinks]] away.
+- **Clawline.** Incredibly important for gap closing after evading attacks from the First Sinner. I've used it multiple times to sneak some hits in before First Sinner [[blinking|blinks]] away.
 
 
 > [!info] Clawline easily cancels the bind, or other similar tools
