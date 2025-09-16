@@ -1,7 +1,7 @@
 ---
 title: "Hollow Knight: Silksong - Second Sentinel fight"
 created: 2025-09-16T12:38
-modified: 2025-09-16T13:03
+modified: 2025-09-16T15:20
 tags:
   - guide
   - gaming
@@ -12,6 +12,11 @@ description: My own fight for Silksong's Second Sentinel. While it's a short fig
 # Video
 ![](https://youtu.be/MMXaqJ3dWfE)
 
+# Difficulty
+
+Second Sentinel doesn't have much variety in its moveset, but is still pretty annoying to fight in that tight, confined room. Personally took me around **4-6 tries.**
+
+The **[[runback]]** is also pretty convenient, as a bench below the boss room is accessible without any hazards along the way.
 # Loadout
 
 ## Traversal skills
