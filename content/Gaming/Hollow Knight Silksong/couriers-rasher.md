@@ -1,13 +1,13 @@
 ---
 title: "Hollow Knight: Silksong - Courier's Rasher run"
 created: 2025-09-15T21:04
-modified: 2025-09-15T21:51
+modified: 2025-09-16T12:40
 tags:
   - guide
   - gaming
   - video-companion
   - silksong
-description: My own run for Silksong's Courier's Rasher delivery quest and some assorted tips
+description: My own run for Silksong's Courier's Rasher delivery quest and some assorted tips.
 ---
 # Video
 ![](https://youtu.be/LWbC-mcV7pM)
