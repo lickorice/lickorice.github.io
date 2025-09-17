@@ -1,7 +1,7 @@
 ---
 title: "Hollow Knight: Silksong - Lace part two"
 created: 2025-09-16T12:38
-modified: 2025-09-16T23:14
+modified: 2025-09-17T14:59
 tags:
   - guide
   - gaming
@@ -21,7 +21,7 @@ The **[[runback]]** takes a little bit of time (waiting in the elevator) but rem
 
 ## Traversal skills
 
-- **Swift Step.** Just like Lace in their first fight, you will be mostly utilizing this skill. Failure to dash after Lace's attacks (I've tried multiple times), such as her riposte and her 
+- **Swift Step.** Just like Lace in their first fight, you will be mostly utilizing this skill. Failure to dash after Lace's attacks (I've tried multiple times), such as her riposte and her three-hit combo will deal a couple of masks of damage to you.
 
 ## Upgrades
 
