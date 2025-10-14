@@ -29,6 +29,32 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
+      // Recommendation marker
+      if (fileData.frontmatter?.recommended) {
+        const recommended = (fileData.frontmatter?.recommended as string) == "y"
+        if (recommended) {
+          segments.push(
+            <span style={{ color: "green" }}>✅ Recommended</span>
+          )
+        } else {
+          segments.push(
+            <span style={{ color: "red" }}>❌ Not recommended</span>
+          )
+        }
+        segments.push(<span> • </span>)
+      }
+      
+      // Steam link
+      if (fileData.frontmatter?.steam) {
+        segments.push(
+          <a href={fileData.frontmatter?.steam as string} target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="Steam icon" style="height: 0.9em; margin-right: 0.25em; vertical-align: middle;"></img>
+            Steam
+          </a>
+        )
+        segments.push(<span> • </span>)
+      }
+
       // Wiktionary link
       if (fileData.frontmatter?.wiktionary) {
         segments.push(

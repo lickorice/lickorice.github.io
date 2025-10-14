@@ -4,7 +4,7 @@ tags:
   - post
 created: 2025-09-03T06:49
 updated: 2025-09-03T15:23
-modified: 2025-09-06T13:38
+modified: 2025-09-18T21:54
 description: Carlos's personal rabbit hole.
 ---
 # Structure
@@ -12,6 +12,12 @@ description: Carlos's personal rabbit hole.
 This isn't a blog in the "traditional" sense—I've structured it in a way that you could easily access some concepts I'd like to explain personally, much like a wiki. You'll see some posts like these, and some general concepts (provide an example here).
 
 You'll regularly see new blog posts and concepts added to this site, as well as some updates to  less fleshed-out pages. So if you see a page with only one or two sentences on it, rest assured it's in my backlog. If you see a link to a [stub](https://en.wikipedia.org/wiki/Wikipedia:Stub) page, it's definitely at the back of my head, or somewhere proximate.
+
+# How to subscribe to new posts
+
+This website has **RSS built-in**. By default, it will push *every single page*, but I modified it in such a way that posts in the RSS feed are hand-picked by me. You can use extensions (I use [Feeder](https://feeder.co/) to check myself) or an RSS-to-email tool.
+
+**No newsletter?** Personally, this isn't a platform for "content creation" or "influencing." I've moved away from the game of getting as many views as possible—so this website is built for posterity and for you to pick my mind. Maybe if I get to it (and have the budget for it) and there's an evident demand for it I'll reconsider my thoughts.
 
 # Raison d'être
 
@@ -33,13 +39,13 @@ I've privately compiled notes via [Obsidian](https://obsidian.md/) back when it 
 
 ## Keeping the blade sharp
 
-Similarly with my [YouTube channel](https://www.youtube.com/@CarlosPanganiban), I don't primarily intend my content to reach virality. I'd like to believe that regularly "distilling" your thoughts into text or video form helps you hone your communication skill.
+Similarly with my [YouTube channel](https://www.youtube.com/@CarlosPanganiban) now, I no longer primarily intend my content to reach virality. I'd like to believe that regular "distillation" of your thoughts into text or video form helps you hone your communication and critical thinking skills.
 
 Surely I'll come back to this page after some due diligence and cite some sources, but personally it has worked for me and still works for me now. 
 # Language and AI use
 
 Ninety-nine percent of the site will be in English. You may find some text in [[kapampangan-language|Kapampangan]] or Tagalog—but only when necessary for the purposes of context. Rest assured I'll provide my own translation.
 
-You may also notice the liberal use of em dashes (this symbol "—"), which is [typically an indicator of LLM use](). I regularly use these dashes as part of my writing style and I will decline from imposing a moratorium on punctuation just because of that. Expediting the writing process through LLM use defeats the purposes of this blog, so I will *personally guarantee* you that I do abstain from it. 
+You may also notice the liberal use of em dashes (this symbol "—"), which is [typically an indicator of LLM use](https://news.ycombinator.com/item?id=43140319). I regularly use these dashes as part of my writing style and I will decline from imposing a moratorium on punctuation just because of that. Expediting the writing process through LLM use defeats the purposes of this blog, so I will *personally guarantee* you that I do abstain from it. 
 
 With that said, you'll probably also find a ton of grammar issues on these pages. You may sometimes (funnily) find that I go back to a page just to correct some grammar. Despite my writing style, I try my best not to be a pedant myself and simply embrace the mistakes—**I guess that's what makes us human.**
