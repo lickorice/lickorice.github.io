@@ -1,6 +1,6 @@
 ---
 created: 2025-09-05T21:33
-modified: 2025-09-06T19:38
+modified: 2026-01-15T12:25
 title: Kapampangan people
 wikipedia: https://en.wikipedia.org/wiki/Kapampangan_people
 tags:
@@ -14,3 +14,4 @@ tags:
 > Please treat this page as **under construction**.
 
 %% TODO: STUB %%
+
