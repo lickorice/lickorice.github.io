@@ -113,6 +113,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   right: [
+    Component.Newsletter(),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),

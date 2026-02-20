@@ -62,6 +62,8 @@ export default (() => {
         <meta property="og:description" content={description} />
         <meta property="og:image:alt" content={description} />
 
+        <meta name="follow.it-verification-code" content="gr4ZwRlmK8XjXdTqvdF7"/>
+
         {!usesCustomOgImage && (
           <>
             <meta property="og:image" content={ogImageDefaultPath} />
