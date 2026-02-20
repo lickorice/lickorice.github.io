@@ -4,7 +4,7 @@ tags:
   - post
 created: 2025-09-03T06:49
 updated: 2025-09-03T15:23
-modified: 2025-09-18T21:54
+modified: 2026-02-20T10:24
 description: Carlos's personal rabbit hole.
 ---
 # Structure
@@ -15,9 +15,11 @@ You'll regularly see new blog posts and concepts added to this site, as well as 
 
 # How to subscribe to new posts
 
-This website has **RSS built-in**. By default, it will push *every single page*, but I modified it in such a way that posts in the RSS feed are hand-picked by me. You can use extensions (I use [Feeder](https://feeder.co/) to check myself) or an RSS-to-email tool.
+This website has **RSS built-in**. By default, the blogging framework (Quartz 4) will push *every single page*, but I modified it in such a way that posts in the RSS feed are hand-picked by me. You can use extensions (I use [Feeder](https://feeder.co/) to check myself) to subscribe to the feed.
 
-**No newsletter?** Personally, this isn't a platform for "content creation" or "influencing." I've moved away from the game of getting as many views as possible—so this website is built for posterity and for you to pick my mind. Maybe if I get to it (and have the budget for it) and there's an evident demand for it I'll reconsider my thoughts.
+## Email newsletter
+
+After this [[20260220-gallery-newsletter|site update]], I've added a **follow.it** RSS to email newsletter thing that you can subscribe to via the form on the right (or at the bottom of this page on mobile).
 
 # Raison d'être
 
