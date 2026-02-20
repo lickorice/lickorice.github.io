@@ -28,6 +28,10 @@ import { toHtml } from "hast-util-to-html"
 import { capitalize } from "../../util/lang"
 import { PluggableList } from "unified"
 
+// For CDN re-routing
+import fs from "fs"
+import { join, relative } from "path"
+
 export interface Options {
   comments: boolean
   highlight: boolean
@@ -210,6 +214,33 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
     },
     markdownPlugins(ctx) {
       const plugins: PluggableList = []
+      // 1. Build a Map of all files in the content directory (including assets)
+      // This allows us to resolve [[my-image.jpg]] to assets/images/path/my-image.jpg
+      const getAllFiles = (dirPath: string, arrayOfFiles: string[] = []) => {
+        const files = fs.readdirSync(dirPath)
+        files.forEach((file: string) => {
+          if (fs.statSync(dirPath + "/" + file).isDirectory() && file !== "thumbs") {
+            arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles)
+          } else {
+            arrayOfFiles.push(path.join(dirPath, "/", file))
+          }
+        })
+        return arrayOfFiles
+      }
+
+      const contentFolder = path.resolve(ctx.argv.directory)
+      const allFiles = getAllFiles(contentFolder)
+      const assetMap = new Map<string, string>()
+
+      for (const file of allFiles) {
+        const relativePath = path.relative(contentFolder, file)
+        const fileName = path.basename(file)
+        // Map filename -> relative path from content root
+        // Note: If duplicate filenames exist, the last one found wins.
+        assetMap.set(fileName, relativePath)
+      }
+      
+      const cdnDomain = "https://cdn.carlospanganiban.com/blog"
 
       // regex replacements
       plugins.push(() => {
@@ -225,11 +256,15 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 const fp = rawFp?.trim() ?? ""
                 const anchor = rawHeader?.trim() ?? ""
                 const alias: string | undefined = rawAlias?.slice(1).trim()
+                const ext: string = path.extname(fp).toLowerCase()
 
                 // embed cases
                 if (value.startsWith("!")) {
-                  const ext: string = path.extname(fp).toLowerCase()
-                  const url = slugifyFilePath(fp as FilePath)
+                  
+                  // CDN REPLACEMENT STEP
+                  const resolvedFp = assetMap.get(path.basename(fp))?.replace(/ /g, "+") ?? fp
+                  const url = `${cdnDomain}/${resolvedFp}`
+
                   if ([".png", ".jpg", ".jpeg", ".gif", ".bmp", ".svg", ".webp"].includes(ext)) {
                     const match = wikilinkImageEmbedRegex.exec(alias ?? "")
                     const alt = match?.groups?.alt ?? ""
@@ -290,7 +325,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 }
 
                 // internal link
-                const url = fp + anchor
+                const url = (ext === ".pdf") ? `${cdnDomain}/${assetMap.get(path.basename(fp))?.replace(/ /g, "+") ?? fp}` : fp + anchor
 
                 return {
                   type: "link",

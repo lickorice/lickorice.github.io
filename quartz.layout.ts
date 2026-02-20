@@ -9,7 +9,7 @@ const explorerFunc = (node: FileTrieNode) => {
   const excludedFolders = [
     "Glossary",
     "Random thoughts",
-    "images",
+    "assets",
   ]
 
   const isGlossaryEntry = node.data?.tags?.includes("glossary") === true
@@ -21,7 +21,7 @@ const explorerFunc = (node: FileTrieNode) => {
 
 const explorerIndexFunc = (node: FileTrieNode) => {
   const excludedFolders = [
-    "images",
+    "assets",
   ]
 
   const isExcludedFolder = node.isFolder && excludedFolders.includes(node.displayName)
@@ -30,7 +30,6 @@ const explorerIndexFunc = (node: FileTrieNode) => {
 }
 
 const recentPostsFilter = (node: QuartzPluginData) : boolean => {
-  console.log(node.frontmatter?.tags)
   const includedTags = [
     "post",
   ]
@@ -39,7 +38,6 @@ const recentPostsFilter = (node: QuartzPluginData) : boolean => {
 }
 
 const recentPagesFilter = (node: QuartzPluginData) : boolean => {
-  console.log(node.frontmatter?.tags)
   const excludedTags = [
     "post",
     "stub",
