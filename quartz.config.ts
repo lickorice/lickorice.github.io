@@ -77,6 +77,7 @@ const config: QuartzConfig = {
 
       // Custom plugins (cgpanganiban / lickorice)
       Plugin.ImageZoom(),
+      Plugin.Gallery(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

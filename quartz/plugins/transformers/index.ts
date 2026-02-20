@@ -14,3 +14,4 @@ export { RoamFlavoredMarkdown } from "./roam"
 
 // Custom plugins (cgpanganiban / lickorice)
 export { ImageZoom } from "./imagezoom"
+export { Gallery } from "./gallery"

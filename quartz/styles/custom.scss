@@ -12,3 +12,32 @@
 .medium-zoom-image--opened {
   z-index: 1000;
 }
+
+// Gallery Grid styling
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-item {
+    margin: 0;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .gallery-caption {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--secondary);
+      margin-top: 0.5rem;
+    }
+  }
+}
