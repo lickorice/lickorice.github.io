@@ -1,9 +1,26 @@
-import mediumZoom from "medium-zoom"
+import mediumZoom, { Zoom } from "medium-zoom"
 
-document.addEventListener("nav", () => {
-  // We target images inside the article content specifically
-  mediumZoom(".article-title + .content img, .popover-hint img, .gallery-item img", {
+let zoomInstance: Zoom | null = null
+
+function init() {
+  const selector = ".popover-hint img, .gallery-item img, article img"
+  
+  // Detach old listeners to prevent memory leaks
+  if (zoomInstance) {
+    zoomInstance.detach()
+  }
+
+  // Re-initialize on the new set of images
+  zoomInstance = mediumZoom(selector, {
     margin: 24,
-    scrollOffset: 0,
+    background: "var(--light)", // Use Quartz theme variables!
   })
+}
+
+// Quartz-specific SPA navigation listener
+document.addEventListener("nav", () => {
+  init()
 })
+
+// Initial load
+init()
