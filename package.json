@@ -12,8 +12,11 @@
     "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
+    "manifest:sync": "node generate-manifest.ts",
+    "thumbs:sync": "node generate-thumbs.js",
     "s3:sync": "aws s3 sync content/assets s3://cdn.carlospanganiban.com/blog/assets --size-only --profile blog-ci",
-    "quartz": "npm run s3:sync && ./quartz/bootstrap-cli.mjs",
+    "preamble": "npm run manifest:sync && npm run thumbs:sync && npm run s3:sync",
+    "quartz": "npm run preamble && ./quartz/bootstrap-cli.mjs",
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
