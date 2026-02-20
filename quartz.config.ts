@@ -74,6 +74,9 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+
+      // Custom plugins (cgpanganiban / lickorice)
+      Plugin.ImageZoom(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

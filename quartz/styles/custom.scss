@@ -1,3 +1,14 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+// For imagezoom.ts / zoom.inline.ts
+.medium-zoom-overlay {
+  z-index: 999;
+
+  background-color: var(--gradientLight) !important;
+  opacity: 0.8 !important;
+}
+
+.medium-zoom-image--opened {
+  z-index: 1000;
+}

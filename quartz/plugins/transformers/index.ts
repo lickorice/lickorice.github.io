@@ -11,3 +11,6 @@ export { SyntaxHighlighting } from "./syntax"
 export { TableOfContents } from "./toc"
 export { HardLineBreaks } from "./linebreaks"
 export { RoamFlavoredMarkdown } from "./roam"
+
+// Custom plugins (cgpanganiban / lickorice)
+export { ImageZoom } from "./imagezoom"
