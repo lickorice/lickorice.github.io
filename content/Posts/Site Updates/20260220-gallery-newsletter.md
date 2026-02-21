@@ -1,7 +1,7 @@
 ---
 title: "2026 February site update: Image zoom, gallery, newletter"
 created: 2026-02-20T10:03
-modified: 2026-02-20T22:29
+modified: 2026-02-21T17:31
 description: A site update for Carlos's Blog introducing image zoom, galleries, and newsletters.
 tags:
   - site-update
@@ -27,6 +27,10 @@ This two-column setup for photos above is itself, a gallery! Well, not really a 
 Later down the line, I might consider a masonry-style layout for images with differing aspect ratios.
 
 # Newsletter
+
+> [!danger] I've disabled this feature for now.
+> **follow.it** looks like shit after testing, so I'm not going to use it for now. I've disabled the logic but I'll be keeping the discussion here for archival.
+
 You'll notice that there's a new form on the right-hand side of the page (on mobile, at the bottom of the page, but it's still styled like shit):
 
 ![[Pasted image 20260220102540.png]]

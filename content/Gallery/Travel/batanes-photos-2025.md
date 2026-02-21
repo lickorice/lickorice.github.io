@@ -1,10 +1,12 @@
 ---
 title: Batanes in annotated photos (2025)
 created: 2026-02-20T08:36
-modified: 2026-02-21T13:19
+modified: 2026-02-21T17:57
 tags:
   - gallery
   - travel
+  - rss
+description: Carlos's pics from Batanes, including detailed notes and complete annotations.
 ---
 > [!gallery] This is a gallery!
 > Photos are taken using my [[sony-a6400|Sony α6400]].

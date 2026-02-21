@@ -4,7 +4,7 @@ tags:
   - post
 created: 2025-09-03T06:49
 updated: 2025-09-03T15:23
-modified: 2026-02-20T10:24
+modified: 2026-02-21T17:32
 description: Carlos's personal rabbit hole.
 ---
 # Structure
@@ -19,7 +19,10 @@ This website has **RSS built-in**. By default, the blogging framework (Quartz 4)
 
 ## Email newsletter
 
-After this [[20260220-gallery-newsletter|site update]], I've added a **follow.it** RSS to email newsletter thing that you can subscribe to via the form on the right (or at the bottom of this page on mobile).
+> [!danger] I've disabled this feature for now.
+> **follow.it** looks like shit after testing, so I'm not going to use it for now. I've disabled the logic for now.
+
+~~After this [[20260220-gallery-newsletter|site update]], I've added a **follow.it** RSS to email newsletter thing that you can subscribe to via the form on the right (or at the bottom of this page on mobile).~~
 
 # Raison d'être
 

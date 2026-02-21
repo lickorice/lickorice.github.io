@@ -111,7 +111,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   right: [
-    Component.Newsletter(),
+    // Component.Newsletter(), Disabled bc it sucks
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
