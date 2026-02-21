@@ -1,7 +1,7 @@
 ---
 title: Batanes in annotated photos (2025)
 created: 2026-02-20T08:36
-modified: 2026-02-20T21:49
+modified: 2026-02-21T10:30
 tags:
   - gallery
   - travel
@@ -9,14 +9,11 @@ tags:
 > [!gallery] This is a gallery!
 > This page will mostly contain images. You can **click on the photos** to zoom in, or open them in a new tab (or save them to your machine).
 > 
-> If locations are specified, you can find the latlong values or Google Maps links below.
-
-> [!warning] This page is still under construction.
-> The following is a work-in-progress (WIP), and is only published to test out how it looks on the site. This may include some experimental code and things might look out-of-place and/or incomplete.
+> **Do note that these full-res photos can be up to `6000x4000` in size and can reach up to 20MB.** If you're on a metered connection, this may be an important consideration. The thumbnails are compressed for your browsing.
 > 
-> Please revisit this page **after a few updates**.
-
-%% TODO: WIP %%
+> Feel free to download these photos! These are under the [WTFPL](https://en.wikipedia.org/wiki/WTFPL). If you're unhappy with my post processing, you can contact me and I can give you the raw images provided I can find them.
+> 
+> If locations are specified, you can find the latlong values or Google Maps links below.
 # At Batan (South leg)
 :::gallery
 ![[batanes-2025-basco-port.jpg|Basco port.]]
@@ -53,7 +50,8 @@ tags:
 ![[batanes-2025-chavayan-1.jpg|Santa Rosa de Lima Chapel in Chavayan. Note the integration of the kugon roofing, and the cobblestone masonry of its facade. What seems to be a version of the Dominican Cross (the circular emblem) can also be seen.]]
 ![[batanes-2025-chavayan.jpg|The "kissing rocks" formation. The rock seems to be similar to the boulders in Maydangeb beach. Wonder how they got there?]]
 ![[batanes-2025-chavayan-3.jpg|Cliff face behind Chavayan, to the North. Compared to Batan, seems to be igneous and volcanic.]]
-![[batanes-2025-departure.jpg|Prepping for departure back to Batan. Later, it will rain hard, and winds will blow up to sixty to eighty km/h. Signal No.2 for the rest of the country, but a regular occurrence for the Ivatans.]]
+![[batanes-2025-departure.jpg|Prepping for departure in Sabtang Port going back to Batan. Later, it will rain hard, and winds will blow up to sixty to eighty km/h. Signal No.2 for the rest of the country, but a regular occurrence for the Ivatans.]]
+![[batanes-2025-meal.jpg|Final meal before departing in rougher seas. A sort of a local fish, served on the distinctive kabaya leaf.]]
 :::
 ## Notes
 ### Savidug Ijang
@@ -61,7 +59,8 @@ The Savidug [*Ijang*](https://en.wikipedia.org/wiki/Ijang) is noted to have "rem
 
 > ... the artefactual materials recovered from the Savidug Ijang, such as the Sung-type ceramics and Chinese beads of the 12th century AD, fit perfectly well with the timing of the foundations of the Okinawan castles, beginning from circa AD 1200. **In fact, there are indications that the local potters imitated certain Sung-type ceramics, as evidenced among the earthenware sherds we retrieved.**
 > 
-> Eusebio Dizon, Ph.D.
+> **Archaeology of Batanes Province, Northern Philippines: The 1996-1997 Status Report**
+> Eusebio Dizon, Ph.D., 2000
 
 :::gallery
 ![[Pasted image 20260220184739.png]]
@@ -71,8 +70,67 @@ The Savidug [*Ijang*](https://en.wikipedia.org/wiki/Ijang) is noted to have "rem
 The paper's PDF is referenced in the Ijang Wikipedia page above, but I'll also provide it [[batanes-archaeology-dizon.pdf|here]].
 # At Batan, again (North leg)
 :::gallery
+![[batanes-2025-vayang-rolling-hills.jpg|On an extremely short hike to a viewpoint in Basco's "Rolling Hills." Manny and my mom in frame. Even with the clearest weather during the trip, winds are still relatively strong.]]
+![[batanes-2025-hills-1.jpg|Behind you, directly South, is Basco peeking through the hills. Seems like the "clearest weather during the trip" will be over soon.]]
+![[batanes-2025-hills-2.jpg|Another view of the pastures over the hills.]]
+![[batanes-2025-hills-3.jpg|A couple of young cows blocking my path, too occupied with mastication.]]
+![[batanes-2025-hills-4.jpg|A view of Chapdipan beach, where its cliffs meet the sea—all the way from the Rolling Hills vantage point. Iraya is still hidden beneath the clouds. No cars, people in sight; quite surreal.]]
+![[batanes-2025-hills-wallpaper.jpg|My actual mainstay wallpaper, on both my phone and my PC. The level of detail when you zoom in is nuts. A rock formation slowly eroding, being consumed by the sea. Note the small boat on the right: breezing through deceptively calm waters.]]
+![[batanes-2025-lighthouse-1.jpg|Basco Port, as seen from Basco Lighthouse. See notes below.]]
+![[batanes-2025-lighthouse-2.jpg|My mom looking over Basco, from the lighthouse.]]
+![[batanes-2025-lighthouse-3.jpg|A portion of Basco, with more rolling hills behind it.]]
+![[batanes-2025-lighthouse-4.jpg|A destroyed wind turbine, also seen from Basco Lighthouse. See notes below.]]
+
+
+
+
+
+
+
+
+
 ![[batanes-2025-rolling-hills-bird.jpg|A vantage point looking over the famous Rolling Hills. What seems to be an egret is in-flight, which I've only noticed a year after during post.]]
 :::
+## Notes
+### Basco Port
+> Nestled between hilly farmland and the provincial capital in the western portion of Batan island, Basco Port is **the area’s only facility capable of off-loading major cargo vessels and sustaining the 30,000 residents across the neighboring islands**. Built in the 1990s, the port’s infrastructure includes a 225-m dual-sided pier, two roll-on/roll-off ramps, and a smaller municipal harbor for fishing boats.
+>
+> **Port Clearance Operations in Constrained Environments**
+> Society of American Military Engineers, 2024 ([Original](https://www.same.org/tmearticle/port-clearance-operations-in-constrained-environments-leveraging/))
+
+During the summer season of 2024, the U.S. Army conducted port clearance operations at Basco Port during the Balikatan joint exercises. Not quite sure if it will age well, but just a year shy before the States lost all respect from the rest of the world.
+
+:::gallery
+![[Pasted image 20260221095435.png]]
+![[Pasted image 20260221095512.png]]
+:::
+
+A large crane was used to clear boulders and reefs protruding above the tide, on the Northern side of the port. **Initially, the use of explosives was planned.** However, Filipinos might recall that during the same time (the summer of 2024), an illegally-built resort in Bicol's Chocolate Hills were publicized.
+
+> The Army detachment initially determined that calculated underwater explosives would be the most effective means to break up the boulders and coral beds that riddled the port.
+> 
+> The detachment encountered one of the project’s **most significant friction points** while applying for environmental approval. Prior to the start of work, **Filipino media discovered that a resort in the Bikol Chocolate Hills had been illegally constructed** in a culturally sensitive area without an ECC.
+> 
+> There were **numerous operational setbacks without explosive demolition available**. The various methods used to clear the port had variable effectiveness for channel clearing. Despite deepening the western edge of the channel by more than 1-m, many boulders surpassed the crane’s load capacity and exceeded 10-m³ in size. Without explosives, the detachment was unable to reduce these obstructions; **this resulted in the largest obstructions remaining within the channel**.
+
+I guess it really is the American way to *"blow shit up"* instead of chipping away at things more slowly.
+
+### The wind turbine
+> This project is part of the Ministry of the Environment’s “Co-Innovation Project for the Creation and Dissemination of Decarbonization Technology.” The first unit in the Philippines reflects the results of the demonstration that started in Ishigaki Island in 2018, with both improved performance and wind-resistant design. Given its design that can withstand wind speeds of up to 70 m/s, it can now be installed in areas with even stronger winds.
+> 
+> **Challenergy’s 1st Magnus VAWT in the Philippines Begins Operations**
+> Challenergy, 2021 ([Original](https://challenergy.com/en-news/_october_12020_we_have_updated_the_maximum_recorded_instantaneous-2/))
+
+:::gallery
+![[Pasted image 20260221101826.png|The wind turbine itself, freshly installed in 2021. Photo from Batanes LGU.]]
+![[Pasted image 20260221102448.png|Promotional drone shot from Challenergy's site.]]
+:::
+
+Well, that was a lie, wasn't it? It was a bit "challenerging" (alluding to the Japanese company's name) to find this exact model of **vertical-axis wind turbine** (VAWT). In particular, this is their **Magnus** model, named after the [same effect in physics.](https://en.wikipedia.org/wiki/Magnus_effect)
+
+A testament of how uncaring the weather is in Batanes. The turbine when I was there is destroyed beyond recognition—missing its other arm, and its whole cylinder on the surviving arm. I thought it was an older tech relic, somewhere back in time where VAWTs were somehow propelling themselves via windmill sails alone. Little did I know it was only installed four years prior, in 2021.
+
+The turbine was rated for 10 kW. But I guess it wasn't rated for Basco's tempests.
 # Locations
 ## Batan (South leg)
 - Chawa Viewing Deck. [20.4269317090596, 121.94924378773081](https://maps.app.goo.gl/HXhTzhDwaLgv8qCCA). 
@@ -90,3 +148,7 @@ The paper's PDF is referenced in the Ijang Wikipedia page above, but I'll also p
 - The "Kissing Rocks" formation at Chavayan, [20.280618230562542, 121.87005562365937](https://maps.app.goo.gl/os8S7nndpkHJ6qX7A). 
 
 ## Batan (North leg)
+- Basco's Rolling Hills, [20.466780197117384, 121.96421059494826](https://maps.app.goo.gl/o9hWniAWTuudcQQd9).
+- Wallpaper formation, [20.469666506697376, 121.95752910491288](20.469666506697376, 121.95752910491288).
+- Basco Lighthouse, [20.451448602189345, 121.96440317276273](https://maps.app.goo.gl/37oJKEo2oYTD7QXu7).
+- Chadpidan Boulder Beach, [20.469487399409786, 121.96935212259035](https://maps.app.goo.gl/ybdAFCWp6hxkBbpo8).
