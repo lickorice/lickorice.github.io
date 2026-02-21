@@ -1,12 +1,14 @@
 ---
 title: Batanes in annotated photos (2025)
 created: 2026-02-20T08:36
-modified: 2026-02-21T10:30
+modified: 2026-02-21T13:19
 tags:
   - gallery
   - travel
 ---
 > [!gallery] This is a gallery!
+> Photos are taken using my [[sony-a6400|Sony α6400]].
+> 
 > This page will mostly contain images. You can **click on the photos** to zoom in, or open them in a new tab (or save them to your machine).
 > 
 > **Do note that these full-res photos can be up to `6000x4000` in size and can reach up to 20MB.** If you're on a metered connection, this may be an important consideration. The thumbnails are compressed for your browsing.
@@ -60,7 +62,6 @@ The Savidug [*Ijang*](https://en.wikipedia.org/wiki/Ijang) is noted to have "rem
 > ... the artefactual materials recovered from the Savidug Ijang, such as the Sung-type ceramics and Chinese beads of the 12th century AD, fit perfectly well with the timing of the foundations of the Okinawan castles, beginning from circa AD 1200. **In fact, there are indications that the local potters imitated certain Sung-type ceramics, as evidenced among the earthenware sherds we retrieved.**
 > 
 > **Archaeology of Batanes Province, Northern Philippines: The 1996-1997 Status Report**
-> Eusebio Dizon, Ph.D., 2000
 
 :::gallery
 ![[Pasted image 20260220184739.png]]
@@ -73,6 +74,7 @@ The paper's PDF is referenced in the Ijang Wikipedia page above, but I'll also p
 ![[batanes-2025-vayang-rolling-hills.jpg|On an extremely short hike to a viewpoint in Basco's "Rolling Hills." Manny and my mom in frame. Even with the clearest weather during the trip, winds are still relatively strong.]]
 ![[batanes-2025-hills-1.jpg|Behind you, directly South, is Basco peeking through the hills. Seems like the "clearest weather during the trip" will be over soon.]]
 ![[batanes-2025-hills-2.jpg|Another view of the pastures over the hills.]]
+![[batanes-2025-rolling-hills-bird.jpg|A vantage point looking over the famous Rolling Hills. What seems to be an egret is in-flight, which I've only noticed a year after during post.]]
 ![[batanes-2025-hills-3.jpg|A couple of young cows blocking my path, too occupied with mastication.]]
 ![[batanes-2025-hills-4.jpg|A view of Chapdipan beach, where its cliffs meet the sea—all the way from the Rolling Hills vantage point. Iraya is still hidden beneath the clouds. No cars, people in sight; quite surreal.]]
 ![[batanes-2025-hills-wallpaper.jpg|My actual mainstay wallpaper, on both my phone and my PC. The level of detail when you zoom in is nuts. A rock formation slowly eroding, being consumed by the sea. Note the small boat on the right: breezing through deceptively calm waters.]]
@@ -80,29 +82,27 @@ The paper's PDF is referenced in the Ijang Wikipedia page above, but I'll also p
 ![[batanes-2025-lighthouse-2.jpg|My mom looking over Basco, from the lighthouse.]]
 ![[batanes-2025-lighthouse-3.jpg|A portion of Basco, with more rolling hills behind it.]]
 ![[batanes-2025-lighthouse-4.jpg|A destroyed wind turbine, also seen from Basco Lighthouse. See notes below.]]
-
-
-
-
-
-
-
-
-
-![[batanes-2025-rolling-hills-bird.jpg|A vantage point looking over the famous Rolling Hills. What seems to be an egret is in-flight, which I've only noticed a year after during post.]]
+![[batanes-2025-lighthouse-5.jpg|Basco Lighthouse, in all its glory. Built only relatively recently, in 2001—which makes me weirdly older than it.]]
+![[batanes-2025-lighthouse-6.jpg|Another angle of the broken turbine.]]
+![[batanes-2025-tukon.jpg|Tukon Chapel, standing alone in the hills under overcast clouds. It was under renovation when we went there.]]
+![[batanes-2025-radar-1.jpg|A defunct PAGASA weather station in the distance with a ruined tower. Gives Chernobyl vibes.]]
+![[batanes-2025-radar-2.jpg|The ruined radar up-close. Overcast weather makes this feel more ominous. I cannot find reliable information on how this was destroyed.]]
+![[batanes-2025-flora.jpg|Local Batan flora. Cannot reliably identify what this is.]]
+![[batanes-2025-basco-ijang.jpg|Batan Island's ijang. See notes above on ijangs.]]
+![[batanes-2025-boulder-1.jpg|Chadpidan Boulder Beach, as seen from the Basco Rolling Hills vantage point earlier. The cliffs on the background are easily ten metres high. Gives a weird alpine terrain feel despite being tropical.]]
+![[batanes-2025-boulder-2.jpg|Another mainstay wallpaper for me. A random stone cairn I stumbled upon while walking among the boulders.]]
 :::
 ## Notes
 ### Basco Port
 > Nestled between hilly farmland and the provincial capital in the western portion of Batan island, Basco Port is **the area’s only facility capable of off-loading major cargo vessels and sustaining the 30,000 residents across the neighboring islands**. Built in the 1990s, the port’s infrastructure includes a 225-m dual-sided pier, two roll-on/roll-off ramps, and a smaller municipal harbor for fishing boats.
 >
-> **Port Clearance Operations in Constrained Environments**
-> Society of American Military Engineers, 2024 ([Original](https://www.same.org/tmearticle/port-clearance-operations-in-constrained-environments-leveraging/))
+> **Port Clearance Operations in Constrained Environments**, Society of American Military Engineers ([Original](https://www.same.org/tmearticle/port-clearance-operations-in-constrained-environments-leveraging/))
 
 During the summer season of 2024, the U.S. Army conducted port clearance operations at Basco Port during the Balikatan joint exercises. Not quite sure if it will age well, but just a year shy before the States lost all respect from the rest of the world.
 
 :::gallery
-![[Pasted image 20260221095435.png]]
-![[Pasted image 20260221095512.png]]
+![[Pasted image 20260221104722.png|The side of Basco Port with blockages.]]
+![[Pasted image 20260221104707.png]]
 :::
 
 A large crane was used to clear boulders and reefs protruding above the tide, on the Northern side of the port. **Initially, the use of explosives was planned.** However, Filipinos might recall that during the same time (the summer of 2024), an illegally-built resort in Bicol's Chocolate Hills were publicized.
@@ -118,12 +118,11 @@ I guess it really is the American way to *"blow shit up"* instead of chipping aw
 ### The wind turbine
 > This project is part of the Ministry of the Environment’s “Co-Innovation Project for the Creation and Dissemination of Decarbonization Technology.” The first unit in the Philippines reflects the results of the demonstration that started in Ishigaki Island in 2018, with both improved performance and wind-resistant design. Given its design that can withstand wind speeds of up to 70 m/s, it can now be installed in areas with even stronger winds.
 > 
-> **Challenergy’s 1st Magnus VAWT in the Philippines Begins Operations**
-> Challenergy, 2021 ([Original](https://challenergy.com/en-news/_october_12020_we_have_updated_the_maximum_recorded_instantaneous-2/))
+> **Challenergy’s 1st Magnus VAWT in the Philippines Begins Operations** ([Original](https://challenergy.com/en-news/_october_12020_we_have_updated_the_maximum_recorded_instantaneous-2/))
 
 :::gallery
-![[Pasted image 20260221101826.png|The wind turbine itself, freshly installed in 2021. Photo from Batanes LGU.]]
-![[Pasted image 20260221102448.png|Promotional drone shot from Challenergy's site.]]
+![[Pasted image 20260221104748.png]]
+![[Pasted image 20260221104740.png]]
 :::
 
 Well, that was a lie, wasn't it? It was a bit "challenerging" (alluding to the Japanese company's name) to find this exact model of **vertical-axis wind turbine** (VAWT). In particular, this is their **Magnus** model, named after the [same effect in physics.](https://en.wikipedia.org/wiki/Magnus_effect)
@@ -132,12 +131,17 @@ A testament of how uncaring the weather is in Batanes. The turbine when I was th
 
 The turbine was rated for 10 kW. But I guess it wasn't rated for Basco's tempests.
 # Locations
+
+![[Pasted image 20260221131902.png]]
+Pinned locations on the map. [Google My Maps link](https://www.google.com/maps/d/u/0/edit?mid=1K3mVx6uGzFeYMu1o63TXclacXen4mcA&usp=sharing).
+
 ## Batan (South leg)
 - Chawa Viewing Deck. [20.4269317090596, 121.94924378773081](https://maps.app.goo.gl/HXhTzhDwaLgv8qCCA). 
 - Near Rakuh A Payaman, [20.39257368562015, 121.97181067168314](https://maps.app.goo.gl/MLsAAPj54NfcMAgT8). 
 - Alapad Rock Formation, [20.367649929420796, 121.97026902016766](https://maps.app.goo.gl/ZY2Gb8oaRJpYVLgw6). 
 - House of Dakay, [20.370895588607947, 121.91438273558238](https://maps.app.goo.gl/NkP7hRsaTPxDKXNh7). 
-- Maydangeb White Beach, [20.40661975697984, 121.93037559647085](https://maps.app.goo.gl/CVShmGikyUauhguNA). 
+- San Carlos Borromeo Parish Church, [20.41587753, 121.9468378](https://maps.app.goo.gl/tVRCadJWAZq6cR2v5)
+- Maydangeb White Beach, [20.40661975697984, 121.93037559647085](https://maps.app.goo.gl/CVShmGikyUauhguNA).
 
 ## Sabtang
 - Sabtang Port approach, [20.343261046687946, 121.8812136335779](https://maps.app.goo.gl/UVYSsyR36Vw8rLUR9). 
@@ -149,6 +153,9 @@ The turbine was rated for 10 kW. But I guess it wasn't rated for Basco's tempest
 
 ## Batan (North leg)
 - Basco's Rolling Hills, [20.466780197117384, 121.96421059494826](https://maps.app.goo.gl/o9hWniAWTuudcQQd9).
-- Wallpaper formation, [20.469666506697376, 121.95752910491288](20.469666506697376, 121.95752910491288).
+- Wallpaper formation, [20.469666506697376, 121.95752910491288](https://maps.app.goo.gl/Bh7z2wqyUo36qmpd8).
 - Basco Lighthouse, [20.451448602189345, 121.96440317276273](https://maps.app.goo.gl/37oJKEo2oYTD7QXu7).
+- Broken wind turbine, [20.45260932990331, 121.96385793321618](https://maps.app.goo.gl/tMCHcz28Dzz1fsF97).
+- Tukon Chapel, [20.429891379137654, 121.97060042329298](https://maps.app.goo.gl/9X4BZKgYE63tGUYw6).
+- Tukon Radar Station, [20.42767320108099, 121.97055214346766](https://maps.app.goo.gl/SN64UUpd2Y9tHvzz7).
 - Chadpidan Boulder Beach, [20.469487399409786, 121.96935212259035](https://maps.app.goo.gl/ybdAFCWp6hxkBbpo8).

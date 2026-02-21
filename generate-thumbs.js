@@ -18,11 +18,17 @@ async function processImages(dir) {
       const relativePath = path.relative(SOURCE_DIR, fullPath);
       const destPath = path.join(TARGET_DIR, relativePath);
 
+      const exists = await fs.pathExists(destPath);
+      if (exists) {
+        console.log(`Skipping: ${destPath} (already exists)`);
+        continue;
+      }
+
       await fs.ensureDir(path.dirname(destPath));
 
       await sharp(fullPath)
-        .resize(800, null, { withoutEnlargement: true }) // Max width 800px
-        .jpeg({ quality: 80 }) // Compression
+        .resize(800, null, { withoutEnlargement: true })
+        .jpeg({ quality: 80 })
         .toFile(destPath);
       
       console.log(`Generated thumb: ${destPath}`);

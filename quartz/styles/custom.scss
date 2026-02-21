@@ -52,10 +52,10 @@
 .gallery-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: masonry;
   gap: 1.5rem;
   margin: 2rem 0;
   width: 100%;
+  justify-content: center;
 
   @media (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
