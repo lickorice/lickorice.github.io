@@ -1,0 +1,86 @@
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  width: 100%;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-item {
+    margin: 0;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .gallery-caption {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--secondary);
+    }
+  }
+}
+
+// Newsletter form - Compact Stacked Version
+.newsletter {
+  padding: 1.25rem;
+  border-radius: 8px;
+  background-color: var(--highlight);
+  border: 1px solid var(--lightgray);
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+    font-size: 1.1rem;
+    font-family: var(--headerFont); // Lora
+    color: var(--dark);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column; // Force vertical stacking
+    gap: 0.75rem;           // Clean spacing between input and button
+    width: 100%;
+
+    input {
+      width: 100%;
+      padding: 0.6rem 0.8rem;
+      border: 1px solid var(--lightgray);
+      border-radius: 6px;
+      background: var(--light);
+      color: var(--dark);
+      font-family: var(--bodyFont); // Roboto
+      font-size: 0.9rem;
+      box-sizing: border-box; // Prevents input from being wider than container
+
+      &:focus {
+        outline: none;
+        border-color: var(--secondary);
+      }
+    }
+
+    button {
+      width: 100%;
+      padding: 0.6rem;
+      background-color: var(--secondary);
+      color: var(--light);
+      border: none;
+      border-radius: 6px;
+      font-family: var(--bodyFont);
+      font-weight: 600;
+      cursor: pointer;
+      transition: filter 0.2s ease;
+
+      margin-top: 0.6rem;
+
+      &:hover {
+        filter: brightness(1.2);
+      }
+    }
+  }
+}

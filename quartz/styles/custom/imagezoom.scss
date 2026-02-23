@@ -1,0 +1,61 @@
+.medium-zoom-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .3s;
+  will-change: opacity;
+  z-index: 999;
+}
+.medium-zoom--opened .medium-zoom-overlay {
+  cursor: pointer;
+  cursor: zoom-out;
+  opacity: 1;
+}
+.medium-zoom-image {
+  cursor: pointer;
+  cursor: zoom-in;
+  transition: transform .3s cubic-bezier(.2,0,.2,1) !important;
+}
+.medium-zoom-image--hidden {
+  visibility: hidden;
+}
+.medium-zoom-image--opened {
+  position: relative;
+  cursor: pointer;
+  cursor: zoom-out;
+  will-change: transform;
+  z-index: 1000;
+}
+
+/* 1. The Spinner (Centered) */
+#medium-zoom-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(from var(--light) r g b / 0.4); /* Matches your theme */
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+#medium-zoom-loader::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 3px solid var(--lightgray);
+  border-top: 3px solid var(--secondary);
+  border-radius: 50%;
+  animation: zoom-spin 0.8s linear infinite;
+}
+
+@keyframes zoom-spin {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
