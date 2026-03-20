@@ -1,7 +1,7 @@
 ---
 title: Batanes in annotated photos (2025)
 created: 2026-02-20T08:36
-modified: 2026-02-21T17:57
+modified: 2026-03-20T15:31
 tags:
   - gallery
   - travel
@@ -15,7 +15,7 @@ description: Carlos's pics from Batanes, including detailed notes and complete a
 > 
 > **Do note that these full-res photos can be up to `6000x4000` in size and can reach up to 20MB.** If you're on a metered connection, this may be an important consideration. The thumbnails are compressed for your browsing.
 > 
-> Feel free to download these photos! These are under the [WTFPL](https://en.wikipedia.org/wiki/WTFPL). If you're unhappy with my post processing, you can contact me and I can give you the raw images provided I can find them.
+> Feel free to download these photos! These are under the [WTFPL](https://en.wikipedia.org/wiki/WTFPL).
 > 
 > If locations are specified, you can find the latlong values or Google Maps links below.
 # At Batan (South leg)
