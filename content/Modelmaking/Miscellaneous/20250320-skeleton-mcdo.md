@@ -1,15 +1,15 @@
 ---
 title: McDonald's Skeleton Custom
 created: 2026-03-20T21:01
-modified: 2026-03-22T17:47
+modified: 2026-03-22T17:52
 tags:
   - post
   - modelmaking
   - rss
 description: The McDonald's Minecraft skelly toy, repainted.
-socialImage: https://cdn.carlospanganiban.com/blog/assets/thumbs/Modelmaking/Misc/mcdo-creeper/mcdo-creeper-02324.jpg
+socialImage: https://cdn.carlospanganiban.com/blog/assets/thumbs/Modelmaking/Misc/mcdo-skelly/mcdo-skeleton-02373.jpg
 ---
- [!gallery] This is a gallery!
+> [!gallery] This is a gallery!
 > Photos are taken using my [[sony-a6400|Sony α6400]].
 > 
 > This page will mostly contain images. You can **click on the photos** to zoom in, or open them in a new tab (or save them to your machine).
